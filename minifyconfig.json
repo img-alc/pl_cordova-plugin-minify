@@ -1,13 +1,12 @@
 {
 	"minifyEnabled": "Always",
 	"combineJavascripts": {
-		"enabled" : true
+		"enabled" : true,
+		 "file": "all.min.js"
 	},
-	"files": {
-		"paths": [""],
-		"recursive": true,
-		"javascriptStrategy": "scanDirectory"
-	},
+	 "files": { 
+		 "paths": [ "index.html", "" ], "recursive": true, "javascriptStrategy": "scanHtml" 
+	 },
 	"terserOptions": { 
 	},
 	"cleanCSSOptions": {
