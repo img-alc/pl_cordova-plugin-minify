@@ -17,7 +17,7 @@ module.exports = function(context) {
         fileConfig = JSON.parse(fs.readFileSync(configFile, "utf8"));
     }
     config = {
-        minifyEnabled: "Release",
+        minifyEnabled: "Always",
         combineJavascripts: {
             enabled: false,
             /* Experimental. May cause problems when javascriptStrategy 
